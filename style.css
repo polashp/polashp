@@ -1,0 +1,168 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.header-area{
+   display: flex;
+   
+}
+
+.half-width h1{
+    color:#575757;
+}
+.extra{
+    margin-top:10%;
+    
+}
+.half-width{
+    width:40%;
+    margin-left: 5%; 
+    padding-left: 2%; 
+}
+
+.half-width img{
+   width: 100%;
+} 
+.header-span{
+    color:#FB934A;
+}
+h1{
+    font-size: 50px;
+}
+
+.half-width p{
+    color:#828282;
+    font-weight:400;
+    
+}
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(145deg, #FC9149, #FD4B2F);
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400;
+    
+    
+}
+
+.middle-area{
+    background-image: url(img/shapes/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.middle-area .half-width img{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 61%;
+}
+
+.middle-area .half-width h2{
+    margin-top: 30%;
+    font-weight: 700;
+    color:#707070;
+}
+
+.middle-area .half-width p{
+    color:#000000;
+}
+.box{
+    width:30%;
+}
+h2{
+    font-size: 40px;
+    
+}
+
+.my-recipies h1{
+    color:#707070;
+
+} 
+.my-recipies .recipie-text{
+    text-align: center;
+    width:500px;
+    margin: 0 auto;
+    
+}
+.parent{
+    display: inline-flex;
+    margin-left: 15%;
+    
+}
+.parent div{
+    box-shadow: 40px 15px 20px gray;
+    height: 80%;
+    
+}
+.three-part{
+    width:25%;
+    justify-content: center;
+    border:15px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    margin-left: 2%;
+    
+   
+    
+}
+.three-part img{
+    
+   width:100%;
+    
+}
+h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.three-part h3{
+    color:#4D4E52;
+}
+
+.newslater{
+    padding: 21%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+    background-image:url(img/shapes/Frame\ 59.jpg);
+    height:100px;
+    
+}
+.info{
+    font-size: 20px;
+    margin: 0% auto;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+   
+}
+
+button{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+   
+}
+
+footer{
+    width:100%;
+    height: 150px;
+    background: #5B5B5B;
+    text-align: center;
+
+}
+footer h2 span{
+    color:orange;
+    text-transform: uppercase;
+}
+footer p{
+    color:#ffffff;
+    font-size:15px; 
+}
